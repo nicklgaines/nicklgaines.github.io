@@ -1,0 +1,143 @@
+
+html, body{
+	background-color: #fff;
+	font-family: Arial;
+	color:#999;
+	font-size: 18px;
+	width:100%;
+	height: 100%;
+	padding:0px;
+	margin:0px;
+	transition: font-size 0.5s; 
+}
+
+
+a{
+	color:#dc143c;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+h2{
+	color:black;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+p{
+	line-height: 32px;
+}
+
+aside{
+	background-color: #eee;
+	width:50%;
+	height: 100%;
+	display: block;
+	position: fixed;
+	box-sizing: border-box;
+	background:url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Barack_Obama_votes_in_the_2012_election.jpg") no-repeat;
+	background-size:cover;
+	background-position: center;
+	transition: width 0.8s; 
+	transition: padding 0.5s; 
+	top: 0; bottom: 0; left: 0; right: 50%;
+
+}
+
+article{
+	width:39%;
+	display: block;
+	position: relative;
+	float:right;
+	padding:3% 7%;
+	text-align: center;
+	transition: padding 0.5s; 
+}
+
+
+.center.avatar{
+	border-radius: 50%;
+	width:100px;
+	height: 100px;
+}
+
+ul{
+	list-style-type: none;
+	line-height: 40px;
+	margin:0px;
+	padding:0px;
+}
+
+li.linethrough {
+	text-decoration: line-through;
+    position: relative;
+}
+
+footer ul{
+	position: relative;
+	border-top:1px solid #ccc;
+	width:100%;
+	margin-top:10px;
+	padding-top:10px;
+	padding-bottom:0px;
+}
+
+footer{
+	position: relative;
+}
+
+footer ul li{
+	display: inline-block;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-right:10px;
+	margin-right:10px;
+	line-height: normal;
+	border-right:1px solid #eee; 
+}
+
+footer ul li:nth-last-child(1){
+	padding-right:0px;
+	margin-right:0px;
+	border-right:none;
+}
+
+
+footer a{
+	color: #999;
+}
+
+
+@media screen and (max-width : 768px) {
+
+	html, body{
+		font-size:16px;
+	}
+
+	h2{
+		margin:20px 0px;
+	}
+
+	aside{
+		display: none;
+	}
+
+	article{
+		width:86%;
+		height: 10%;
+		float:left;
+		padding:7% 7%;
+		text-align: center;
+	}
+
+	.center {
+ 		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+	}
+
+}
