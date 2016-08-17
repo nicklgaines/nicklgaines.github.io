@@ -8,7 +8,7 @@ html, body{
 	height: 100%;
 	padding:0px;
 	margin:0px;
-	transition: font-size 0.5s; 
+	transition: font-size 0.5s;
 }
 
 
@@ -41,8 +41,8 @@ aside{
 	background:url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Barack_Obama_votes_in_the_2012_election.jpg") no-repeat;
 	background-size:cover;
 	background-position: center;
-	transition: width 0.8s; 
-	transition: padding 0.5s; 
+	transition: width 0.8s;
+	transition: padding 0.5s;
 	top: 0; bottom: 0; left: 0; right: 50%;
 
 }
@@ -54,7 +54,7 @@ article{
 	float:right;
 	padding:3% 7%;
 	text-align: center;
-	transition: padding 0.5s; 
+	transition: padding 0.5s;
 }
 
 
@@ -97,14 +97,9 @@ footer ul li{
 	padding-right:10px;
 	margin-right:10px;
 	line-height: normal;
-	border-right:1px solid #eee; 
+	border-right:1px solid #eee;
 }
 
-footer ul li:nth-last-child(1){
-	padding-right:0px;
-	margin-right:0px;
-	border-right:none;
-}
 
 
 footer a{
