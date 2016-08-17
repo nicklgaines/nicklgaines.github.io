@@ -31,7 +31,21 @@ p{
 	line-height: 32px;
 }
 
+aside{
+  background-color: #eee;
+  width:50%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  box-sizing: border-box;
+  background:url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Barack_Obama_votes_in_the_2012_election.jpg") no-repeat;
+  background-size:cover;
+  background-position: center;
+  transition: width 0.8s;
+  transition: padding 0.5s;
+  top: 0; bottom: 0; left: 0; right: 50%;
 
+}
 article{
 	width:39%;
 	display: block;
@@ -109,5 +123,9 @@ footer a{
 	}
 
 
+aside{
+    display: none;
+
+    }
 
 }
