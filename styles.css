@@ -58,7 +58,7 @@ article{
 }
 
 
-.center.avatar{
+.avatar{
 	border-radius: 50%;
 	width:100px;
 	height: 100px;
@@ -71,10 +71,6 @@ ul{
 	padding:0px;
 }
 
-li.linethrough {
-	text-decoration: line-through;
-    position: relative;
-}
 
 footer ul{
 	position: relative;
@@ -129,10 +125,6 @@ footer a{
 		text-align: center;
 	}
 
-	.center {
- 		display: block;
- 		margin-left: auto;
-  		margin-right: auto;
-	}
+
 
 }
